@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acerca — NovaTrix</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="nav-inner">
+      <div class="logo">
+        <div>
+          <span class="logo-text">NovaTrix</span>
+          <span class="logo-sub">Tecnología Punta</span>
+        </div>
+      </div>
+      <button class="nav-toggle" onclick="toggleNav()" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="acerca.html" class="active">Acerca</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="page-wrapper">
+    <main>
+
+      <!-- Hero acerca -->
+      <div class="about-hero fade-in">
+        <h1>Acerca de NovaTrix</h1>
+        <p class="slogan">— Tecnología Punta —</p>
+        <p>Somos una empresa comprometida con llevar tecnología de alto rendimiento a personas y empresas que buscan herramientas reales para sus metas reales. Desde nuestros inicios, hemos creído que el hardware adecuado puede cambiar vidas.</p>
+      </div>
+
+      <!-- Historia -->
+      <div class="section-header fade-in" style="animation-delay:.1s">
+        <div class="section-dot"></div>
+        <h2>Nuestra Historia</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="info-banner purple fade-in" style="animation-delay:.25s">
+        <h3>🚀 2026 — NovaTrix Hoy</h3>
+        <p>Hoy ofrecemos cuatro líneas de productos especializados, asesoría personalizada y soporte técnico. Seguimos creciendo con la misma filosofía: tecnología punta, accesible y honesta.</p>
+      </div>
+
+      <!-- Misión, visión, valores -->
+      <div class="section-header fade-in" style="animation-delay:.3s">
+        <div class="section-dot"></div>
+        <h2>Identidad y Misión</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="values-grid fade-in" style="animation-delay:.35s">
+        <div class="value-item">
+          <div class="value-icon">🎯</div>
+          <h4>Misión</h4>
+          <p>Proveer computadoras y dispositivos electrónicos de alto rendimiento con asesoría honesta, para que cada cliente invierta en lo que realmente necesita.</p>
+        </div>
+        <div class="value-item">
+          <div class="value-icon">🔭</div>
+          <h4>Visión</h4>
+          <p>Ser la referencia tecnológica de confianza en la región, reconocida por la calidad de sus productos y el compromiso con sus clientes.</p>
+        </div>
+        <div class="value-item">
+          <div class="value-icon">⚡</div>
+          <h4>Innovación</h4>
+          <p>Nos mantenemos al día con las últimas tendencias del hardware para ofrecer siempre lo más actual y eficiente del mercado.</p>
+        </div>
+        <div class="value-item">
+          <div class="value-icon">🤝</div>
+          <h4>Compromiso</h4>
+          <p>Garantía en todos nuestros productos y soporte técnico real. No desaparecemos después de la venta.</p>
+        </div>
+        <div class="value-item">
+          <div class="value-icon">🔒</div>
+          <h4>Confianza</h4>
+          <p>Trabajamos exclusivamente con proveedores certificados. Cada equipo pasa por nuestro control de calidad antes de salir.</p>
+        </div>
+        <div class="value-item">
+          <div class="value-icon">🌐</div>
+          <h4>Accesibilidad</h4>
+          <p>Planes de financiamiento, entregas nacionales y atención multicanal para que la tecnología llegue a todos.</p>
+        </div>
+      </div>
+
+      <!-- Equipo -->
+      <div class="section-header fade-in" style="animation-delay:.4s">
+        <div class="section-dot"></div>
+        <h2>Nuestro Equipo</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="team-grid fade-in" style="animation-delay:.45s">
+        <div class="team-card">
+          <img src="fotos/miembro-b.jpg" alt="Miembro A" class="team-avatar" />
+          <h4>Juan Esteban Suarez Fuentes</h4>
+          <span class="team-role">Scrum Master</span>
+        </div>
+        <div class="team-card">
+          <img src="fotos/miembro-a.png" alt="Miembro B" class="team-avatar" />
+          <h4>Samuel Esteban Archila Gomez</h4>
+          <span class="team-role">Developer</span>
+        </div>
+        <div class="team-card">
+          <img src="fotos/miembro-c.jpg" alt="Miembro C" class="team-avatar" />
+          <h4>Kenner Uriel Hernandez Sandoval</h4>
+          <span class="team-role">Product Owner</span>
+        </div>
+      </div>
+
+      <div class="info-banner yellow fade-in" style="animation-delay:.5s">
+        <h3>🏗️ Metodología Scrum</h3>
+        <p>En NovaTrix trabajamos bajo la metodología Scrum, lo que nos permite entregar mejoras constantes, responder rápido a los cambios del mercado y mantener al equipo alineado con los objetivos del negocio en ciclos cortos de sprint.</p>
+      </div>
+
+    </main>
+
+    <aside>
+      <div class="aside-panel">
+        <h3>Categorías</h3>
+        <ul class="cat-list">
+          <li><a href="gamer.html"><span class="cat-icon">🎮</span> Gamers</a></li>
+          <li><a href="diseno.html"><span class="cat-icon">🎨</span> Diseño Gráfico</a></li>
+          <li><a href="personal.html"><span class="cat-icon">💻</span> Personales</a></li>
+          <li><a href="desarrollo.html"><span class="cat-icon">⌨️</span> Desarrollo</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">NovaTrix</span>
+        <p>Distribuimos tecnología de punta para profesionales, creadores y entusiastas.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navegación</h5>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="acerca.html">Acerca</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Categorías</h5>
+        <ul>
+          <li><a href="gamer.html">Gamers</a></li>
+          <li><a href="diseno.html">Diseño Gráfico</a></li>
+          <li><a href="personal.html">Personales</a></li>
+          <li><a href="desarrollo.html">Desarrollo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 <span>NovaTrix Systems</span>. Todos los derechos reservados.</span>
+      <span>Tecnología <span>Punta</span></span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

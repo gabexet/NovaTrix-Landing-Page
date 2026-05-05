@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — NovaTrix</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="nav-inner">
+      <div class="logo">
+        <div>
+          <span class="logo-text">NovaTrix</span>
+          <span class="logo-sub">Tecnología Punta</span>
+        </div>
+      </div>
+      <button class="nav-toggle" onclick="toggleNav()" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="acerca.html">Acerca</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="page-wrapper">
+    <main>
+
+      <div class="section-header fade-in">
+        <div class="section-dot"></div>
+        <h2>Blog NovaTrix</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="info-banner purple fade-in" style="animation-delay:.1s">
+        <h3>💬 Espacio de Comunidad</h3>
+        <p>Aquí compartimos noticias del sector tech, guías, comparativas y conversaciones informales sobre el mundo de la tecnología. ¡Participa!</p>
+      </div>
+
+      <div class="blog-grid fade-in" style="animation-delay:.2s">
+
+        <div class="blog-card">
+          <p class="blog-meta"><span class="blog-cat">Noticias</span> 20 Abr 2025</p>
+          <h3>RTX 5000: Todo lo que sabemos hasta ahora</h3>
+          <p>NVIDIA sigue innovando. La próxima generación de tarjetas gráficas promete hasta un 40% de mejora en rendimiento con eficiencia energética superior. ¿Qué esperar?</p>
+          <a href="#" class="blog-read-more">Leer más →</a>
+        </div>
+
+        <div class="blog-card">
+          <p class="blog-meta"><span class="blog-cat">Comparativa</span> 15 Abr 2025</p>
+          <h3>DDR5 vs DDR4 en 2025: ¿Vale la pena el upgrade?</h3>
+          <p>Probamos ambas memorias en escenarios reales: edición de video, compilación de código y gaming. Los resultados te sorprenderán.</p>
+          <a href="#" class="blog-read-more">Leer más →</a>
+        </div>
+
+        <div class="blog-card">
+          <p class="blog-meta"><span class="blog-cat">Guía</span> 10 Abr 2025</p>
+          <h3>Cómo elegir la PC perfecta según tu uso</h3>
+          <p>Diseñadores, desarrolladores, gamers y usuarios casuales tienen necesidades distintas. Esta guía práctica te ayuda a no gastar de más, ni de menos.</p>
+          <a href="#" class="blog-read-more">Leer más →</a>
+        </div>
+
+        <div class="blog-card">
+          <p class="blog-meta"><span class="blog-cat">Opinión</span> 05 Abr 2025</p>
+          <h3>¿Linux o Windows para desarrolladores en 2025?</h3>
+          <p>El debate eterno con nuevos argumentos. WSL2 ha cambiado la ecuación, pero Linux sigue teniendo ventajas que no se pueden ignorar.</p>
+          <a href="#" class="blog-read-more">Leer más →</a>
+        </div>
+
+        <div class="blog-card">
+          <p class="blog-meta"><span class="blog-cat">Hardware</span> 01 Abr 2025</p>
+          <h3>SSD PCIe 5.0: El almacenamiento ultra rápido llegó</h3>
+          <p>Velocidades de lectura que superan los 12 GB/s. Analizamos si estos precios se justifican para el usuario promedio en este momento.</p>
+          <a href="#" class="blog-read-more">Leer más →</a>
+        </div>
+
+        <div class="blog-card">
+          <p class="blog-meta"><span class="blog-cat">Comunidad</span> 28 Mar 2025</p>
+          <h3>Setup del Mes: El build gamer de nuestro cliente</h3>
+          <p>Felipe compartió su build ensamblado con piezas NovaTrix. RGB, refrigeración líquida y un presupuesto muy bien aprovechado.</p>
+          <a href="#" class="blog-read-more">Leer más →</a>
+        </div>
+
+        <div class="blog-card">
+          <p class="blog-meta"><span class="blog-cat">Tips</span> 22 Mar 2025</p>
+          <h3>5 apps para mantener tu PC siempre al 100%</h3>
+          <p>Desde monitoreo de temperatura hasta limpieza de registros, estas herramientas gratuitas alargan la vida de tu equipo.</p>
+          <a href="#" class="blog-read-more">Leer más →</a>
+        </div>
+
+        <div class="blog-card">
+          <p class="blog-meta"><span class="blog-cat">Evento</span> 18 Mar 2025</p>
+          <h3>Resumen: NovaTrix en la Expo Tech 2025</h3>
+          <p>Estuvimos presentes con nuestro stand en la feria tecnológica más grande de la región. Esto fue lo más destacado del evento.</p>
+          <a href="#" class="blog-read-more">Leer más →</a>
+        </div>
+
+        <div class="blog-card">
+          <p class="blog-meta"><span class="blog-cat">Review</span> 12 Mar 2025</p>
+          <h3>Review: Intel Core Ultra 9 285K — ¿Vale la pena?</h3>
+          <p>Probamos el nuevo procesador de Intel en cargas de trabajo reales. Rendimiento multi-núcleo impresionante, pero la eficiencia es discutible.</p>
+          <a href="#" class="blog-read-more">Leer más →</a>
+        </div>
+
+      </div>
+
+    </main>
+
+    <aside>
+      <div class="aside-panel">
+        <h3>Categorías</h3>
+        <ul class="cat-list">
+          <li><a href="gamer.html"><span class="cat-icon">🎮</span> Gamers</a></li>
+          <li><a href="diseno.html"><span class="cat-icon">🎨</span> Diseño Gráfico</a></li>
+          <li><a href="personal.html"><span class="cat-icon">💻</span> Personales</a></li>
+          <li><a href="desarrollo.html"><span class="cat-icon">⌨️</span> Desarrollo</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">NovaTrix</span>
+        <p>Distribuimos tecnología de punta para profesionales, creadores y entusiastas.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navegación</h5>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="acerca.html">Acerca</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Categorías</h5>
+        <ul>
+          <li><a href="gamer.html">Gamers</a></li>
+          <li><a href="diseno.html">Diseño Gráfico</a></li>
+          <li><a href="personal.html">Personales</a></li>
+          <li><a href="desarrollo.html">Desarrollo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 <span>NovaTrix Systems</span>. Todos los derechos reservados.</span>
+      <span>Tecnología <span>Punta</span></span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto — NovaTrix</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="nav-inner">
+      <div class="logo">
+        <div>
+          <span class="logo-text">NovaTrix</span>
+          <span class="logo-sub">Tecnología Punta</span>
+        </div>
+      </div>
+      <button class="nav-toggle" onclick="toggleNav()" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="acerca.html">Acerca</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="page-wrapper">
+    <main>
+
+      <div class="section-header fade-in">
+        <div class="section-dot"></div>
+        <h2>Contacto y Redes</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="info-banner fade-in" style="animation-delay:.1s">
+        <h3>📡 Estamos aquí para ayudarte</h3>
+        <p>Puedes comunicarte con nosotros por cualquiera de los canales disponibles. Nuestro tiempo de respuesta es de máximo 24 horas en días hábiles.</p>
+      </div>
+
+      <!-- Canales de contacto -->
+      <div class="contact-grid fade-in" style="animation-delay:.2s">
+        <div class="contact-card">
+          <span class="c-icon">📧</span>
+          <h4>Correo Electrónico</h4>
+          <p><a href="mailto:contacto@novatrix.com">contacto@novatrix.com</a></p>
+        </div>
+        <div class="contact-card">
+          <span class="c-icon">📱</span>
+          <h4>WhatsApp / Teléfono</h4>
+          <p><a href="tel:+10000000000">+1 (000) 000-0000</a></p>
+        </div>
+        <div class="contact-card">
+          <span class="c-icon">📸</span>
+          <h4>Instagram</h4>
+          <p><a href="#">@novatrix.oficial</a></p>
+        </div>
+        <div class="contact-card">
+          <span class="c-icon">🐦</span>
+          <h4>Twitter / X</h4>
+          <p><a href="#">@NovaTrixTech</a></p>
+        </div>
+        <div class="contact-card">
+          <span class="c-icon">💼</span>
+          <h4>LinkedIn</h4>
+          <p><a href="#">NovaTrix Systems</a></p>
+        </div>
+        <div class="contact-card">
+          <span class="c-icon">📺</span>
+          <h4>YouTube</h4>
+          <p><a href="#">NovaTrix Channel</a></p>
+        </div>
+      </div>
+
+      <!-- Formulario de contacto -->
+      <div class="contact-form fade-in" style="animation-delay:.3s">
+        <h3>✉ Envíanos un Mensaje</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Tu nombre completo" />
+          </div>
+          <div class="form-group">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" placeholder="tu@correo.com" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="asunto">Asunto</label>
+          <select id="asunto">
+            <option value="">Selecciona un motivo...</option>
+            <option>Cotización de producto</option>
+            <option>Soporte técnico</option>
+            <option>Información general</option>
+            <option>Colaboración / Prensa</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" placeholder="Describe tu consulta o necesidad..."></textarea>
+        </div>
+        <button class="btn btn-primary" onclick="sendForm()">Enviar Mensaje</button>
+      </div>
+
+      <!-- Contribuidores -->
+      <div class="section-header fade-in" style="animation-delay:.4s">
+        <div class="section-dot"></div>
+        <h2>Contribuidores del Proyecto</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="contributors-grid fade-in" style="animation-delay:.45s">
+        <div class="contributor-card">
+          <img src="fotos/miembro-b.jpg" alt="Miembro A" class="team-avatar" />
+          <div>
+            <h4>Juan Esteban Suarez Fuentes</h4>
+            <span class="contrib-role">Scrum Master</span>
+          </div>
+        </div>
+        <div class="contributor-card">
+          <img src="fotos/miembro-a.png" alt="Miembro B" class="team-avatar" />
+          <div>
+            <h4>Samuel Esteba Archila Gomez</h4>
+            <span class="contrib-role">Developer</span>
+          </div>
+        </div>
+        <div class="contributor-card">
+          <img src="fotos/miembro-c.jpg" alt="Miembro C" class="team-avatar" />
+          <div>
+            <h4>Kenner Uriel Hernandez Sandoval</h4>
+            <span class="contrib-role">Product Owner</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Horarios -->
+      <div class="info-banner purple fade-in" style="animation-delay:.5s">
+        <h3>🕐 Línea de Atención</h3>
+        <p>Lunes a Viernes: 8:00 AM – 6:00 PM &nbsp;|&nbsp; Sábados: 9:00 AM – 2:00 PM &nbsp;|&nbsp; Domingos y Festivos: Cerrado</p>
+      </div>
+
+    </main>
+
+    <aside>
+      <div class="aside-panel">
+        <h3>Categorías</h3>
+        <ul class="cat-list">
+          <li><a href="gamer.html"><span class="cat-icon">🎮</span> Gamers</a></li>
+          <li><a href="diseno.html"><span class="cat-icon">🎨</span> Diseño Gráfico</a></li>
+          <li><a href="personal.html"><span class="cat-icon">💻</span> Personales</a></li>
+          <li><a href="desarrollo.html"><span class="cat-icon">⌨️</span> Desarrollo</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">NovaTrix</span>
+        <p>Distribuimos tecnología de punta para profesionales, creadores y entusiastas.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navegación</h5>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="acerca.html">Acerca</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Categorías</h5>
+        <ul>
+          <li><a href="gamer.html">Gamers</a></li>
+          <li><a href="diseno.html">Diseño Gráfico</a></li>
+          <li><a href="personal.html">Personales</a></li>
+          <li><a href="desarrollo.html">Desarrollo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 <span>NovaTrix Systems</span>. Todos los derechos reservados.</span>
+      <span>Tecnología <span>Punta</span></span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+    function sendForm() {
+      alert('¡Mensaje enviado! Nos pondremos en contacto contigo pronto.');
+    }
+  </script>
+</body>
+</html>

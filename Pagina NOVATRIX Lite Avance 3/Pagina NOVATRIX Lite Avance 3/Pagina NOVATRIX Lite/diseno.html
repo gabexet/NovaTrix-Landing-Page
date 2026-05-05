@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diseño Gráfico — NovaTrix</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="nav-inner">
+      <div class="logo">
+        <div>
+          <span class="logo-text">NovaTrix</span>
+          <span class="logo-sub">Tecnología Punta</span>
+        </div>
+      </div>
+      <button class="nav-toggle" onclick="toggleNav()" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="acerca.html">Acerca</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="page-wrapper">
+    <main>
+
+      <div class="cat-hero fade-in">
+        <div class="cat-hero-icon">🎨</div>
+        <div>
+          <h1>Diseño Gráfico</h1>
+          <p>Workstations con GPU profesionales, pantallas calibradas de color y almacenamiento masivo para flujos de trabajo creativos sin interrupciones.</p>
+        </div>
+      </div>
+
+      <div class="info-banner purple fade-in" style="animation-delay:.1s">
+        <h3>🖥️ ¿Qué necesita un diseñador?</h3>
+        <p>GPU con amplia VRAM para renderizar texturas y efectos. Almacenamiento rápido y abundante para proyectos pesados. Pantalla con cobertura de color precisa (sRGB / DCI-P3). Todo esto lo encontrarás en nuestra línea Canvas.</p>
+      </div>
+
+      <div class="section-header fade-in" style="animation-delay:.15s">
+        <div class="section-dot"></div>
+        <h2>Línea Canvas — Diseño Gráfico</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="product-grid fade-in" style="animation-delay:.2s">
+
+        <div class="product-card">
+          <div class="card-top-bar"></div>
+          <div class="card-img">🖌️</div>
+          <div class="card-body">
+            <span class="card-tag">Diseño Base</span>
+            <h3>NovaTrix Canvas S1</h3>
+            <ul class="spec-list">
+              <li>GPU <span>RTX 4070 (12GB)</span></li>
+              <li>CPU <span>Ryzen 7 7700X</span></li>
+              <li>RAM <span>32 GB DDR5</span></li>
+              <li>Almac. <span>2 TB NVMe</span></li>
+            </ul>
+            <span class="card-price">$1,299.00</span>
+            <button class="card-btn">Ver detalles →</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="card-top-bar"></div>
+          <div class="card-img">🎨</div>
+          <div class="card-body">
+            <span class="card-tag">Diseño Pro</span>
+            <h3>NovaTrix Canvas Pro</h3>
+            <ul class="spec-list">
+              <li>GPU <span>RTX 4080 (16GB)</span></li>
+              <li>CPU <span>i9-13900K</span></li>
+              <li>RAM <span>64 GB DDR5</span></li>
+              <li>Almac. <span>4 TB NVMe</span></li>
+            </ul>
+            <span class="card-price">$1,799.00</span>
+            <button class="card-btn">Ver detalles →</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="card-top-bar"></div>
+          <div class="card-img">🖥️</div>
+          <div class="card-body">
+            <span class="card-tag">Pack Pantalla</span>
+            <h3>Canvas Pro + Monitor 4K</h3>
+            <ul class="spec-list">
+              <li>GPU <span>RTX 4080</span></li>
+              <li>Monitor <span>4K IPS 100% sRGB</span></li>
+              <li>RAM <span>64 GB DDR5</span></li>
+              <li>Almac. <span>4 TB NVMe</span></li>
+            </ul>
+            <span class="card-price">$2,299.00</span>
+            <button class="card-btn">Ver detalles →</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="card-top-bar"></div>
+          <div class="card-img">💼</div>
+          <div class="card-body">
+            <span class="card-tag">Laptop Diseño</span>
+            <h3>NovaTrix Canvas Slim</h3>
+            <ul class="spec-list">
+              <li>GPU <span>RTX 4070 (8GB)</span></li>
+              <li>Pantalla <span>OLED 2.8K 120Hz</span></li>
+              <li>RAM <span>32 GB DDR5</span></li>
+              <li>Almac. <span>2 TB NVMe</span></li>
+            </ul>
+            <span class="card-price">$1,999.00</span>
+            <button class="card-btn">Ver detalles →</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="info-banner yellow fade-in" style="animation-delay:.3s">
+        <h3>🎯 Compatibilidad con software</h3>
+        <p>Todos nuestros equipos Canvas son probados con Adobe Creative Suite, DaVinci Resolve, Blender y Figma. Funcionan desde el primer día, sin configuraciones adicionales.</p>
+      </div>
+
+    </main>
+
+    <aside>
+      <div class="aside-panel">
+        <h3>Categorías</h3>
+        <ul class="cat-list">
+          <li><a href="gamer.html"><span class="cat-icon">🎮</span> Gamers</a></li>
+          <li><a href="diseno.html" class="active"><span class="cat-icon">🎨</span> Diseño Gráfico</a></li>
+          <li><a href="personal.html"><span class="cat-icon">💻</span> Personales</a></li>
+          <li><a href="desarrollo.html"><span class="cat-icon">⌨️</span> Desarrollo</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">NovaTrix</span>
+        <p>Distribuimos tecnología de punta para profesionales, creadores y entusiastas.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navegación</h5>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="acerca.html">Acerca</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Categorías</h5>
+        <ul>
+          <li><a href="gamer.html">Gamers</a></li>
+          <li><a href="diseno.html">Diseño Gráfico</a></li>
+          <li><a href="personal.html">Personales</a></li>
+          <li><a href="desarrollo.html">Desarrollo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 <span>NovaTrix Systems</span>. Todos los derechos reservados.</span>
+      <span>Tecnología <span>Punta</span></span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
